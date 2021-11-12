@@ -1,0 +1,7 @@
+[CountySS,StateSS,wts]=readvars("SSweights.csv");
+load(MC_Info);
+tbrain=zeros(1,231202);
+for n = 1:231202
+    tbrain(1,n)=voxlogistic(CountySS,MC_Setup.unweighted_study_data(:,n),wts);
+end
+save('CountySS_logistic_tscores.mat','tbrain');
