@@ -1,3 +1,4 @@
+%Defines a function that runs a weighted logistic regression of variable "stig" on variable "vox" with weight "w"
 function voxt = voxlogistic(stig,vox,w)
 z=[]
 if sum(vox)<3
