@@ -3,7 +3,7 @@ Data and code used in Hatzenbuehler, M. L., M., McLaughlin, K. A., Weissman, D. 
 
 The file PrejudicefMRI_mkda_wSS.csv contains all the data used in the analyses. 
 
-Within the folder PrejudicefMRI_mkda, the script MKDA_and_logistic_regression.m lays out the entire analysis. 
+The script MKDA_and_logistic_regression.m lays out the entire analysis. 
 
 This analysis made use of tools from the Cognitive and Affective Neuroscience Laboratory, specifically the core toolbox (https://github.com/canlab/CanlabCore) and the MKDA meta-analyis toolbox (https://github.com/canlab/Canlab_MKDA_MetaAnalysis).
 
